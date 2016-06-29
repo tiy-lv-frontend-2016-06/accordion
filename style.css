@@ -1,0 +1,39 @@
+body {
+  background:#ddd;
+}
+
+#accordion {
+  list-style:none;
+  padding-left:0;
+  width:600px;
+  margin:50px auto;
+}
+
+#accordion li {
+  background:#fff;
+  margin-bottom:0;
+  margin-top:-1px;
+}
+
+#accordion li {
+  border:1px solid rgb(0, 180, 195);
+}
+
+#accordion li p {
+  padding:10px;
+  margin-top:0;
+  margin-bottom:5px;
+}
+
+#accordion li a {
+  display:block;
+  background:rgb(0,198,214);
+  color:white;
+  text-decoration:none;
+  padding:7px;
+  font-size:20px;
+}
+
+.section {
+  display:none;
+}
